@@ -12,7 +12,6 @@ const Login = () => {
 
   return (
     <>
-      {" "}
       <center>
         <Card style={cardStyle} variant="outlined">
           <div>WELCOME TO MOVIE BOOKING</div>
@@ -41,12 +40,9 @@ const Login = () => {
             <Button variant="contained">login</Button>
             <p>forget password?</p>
           </div>
-
         </Card>
         <p>not a member? sign in</p>
       </center>
-      
-
     </>
   );
 };
